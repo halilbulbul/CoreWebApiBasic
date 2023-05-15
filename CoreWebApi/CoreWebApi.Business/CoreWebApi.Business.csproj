@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreWebApi.DataAccess\CoreWebApi.DataAccess.csproj" />
+    <ProjectReference Include="..\CoreWebApi.Infrastructure\CoreWebApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\CoreWebApi.Models\CoreWebApi.Models.csproj" />
+  </ItemGroup>
+
+</Project>
